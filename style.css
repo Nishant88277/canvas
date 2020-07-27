@@ -1,0 +1,137 @@
+.left-ul {
+padding: 0;
+list-style: none;
+position: absolute;
+right: -30px;
+bottom: -43px;
+}
+.characters{
+word-break: break-all;
+border: 1px solid #ddd;
+max-width: 380px;
+min-height: 100px;
+height: 100%;
+margin-top: 10px;
+padding: 10px;
+}
+
+.left-ul li {
+margin: 31.7px 0;
+}
+
+.right-ul {
+list-style: none;
+display: flex;
+position: absolute;
+bottom: -52px;
+right: -37px;
+padding: 0;
+width: 100%;
+}
+
+.right-ul li:first-child {
+position: absolute;
+left: 2px;
+}
+
+.right-ul li:nth-child(2) {
+position: absolute;
+left: 53px;
+}
+
+.right-ul li:nth-child(3) {
+position: absolute;
+left: 102px;
+}
+
+.right-ul li:nth-child(4) {
+position: absolute;
+left: 152px;
+}
+
+.right-ul li:nth-child(5) {
+position: absolute;
+left: 202px;
+}
+
+.right-ul li:nth-child(6) {
+position: absolute;
+right: 239px;
+}
+
+.right-ul li:nth-child(7) {
+position: absolute;
+right: 190px;
+}
+
+.right-ul li:nth-child(8) {
+position: absolute;
+right: 141px;
+}
+
+.right-ul li:nth-child(9) {
+position: absolute;
+right: 90px;
+}
+
+.right-ul li:last-child {
+position: absolute;
+right: 40px;
+}
+
+.east {
+position: absolute;
+right: -90px;
+font-weight: 900;
+top: 50%;
+}
+
+.west {
+position: absolute;
+font-weight: 900;
+top: 47%;
+left: -50px;
+}
+
+.north {
+position: absolute;
+font-weight: 900;
+top: -75px;
+left: 50%;
+}
+
+.south {
+position: absolute;
+font-weight: 900;
+bottom: -96px;
+left: 50%;
+}
+
+input {
+border: 1px solid #ddd;
+padding: 5px 10px;
+font-size: 15px;
+outline: none;
+display: block;
+max-width: 380px;
+width: 100%;
+margin-top: 10px;
+}
+
+.dots {
+list-style: none;
+margin: 0;
+padding: 0;
+position: absolute;
+bottom: -48px;
+left: 40px;
+display: flex;
+}
+
+.dots li {
+margin-right: 44.6px;
+}
+
+.dots li p {
+transform: rotate(270deg);
+}

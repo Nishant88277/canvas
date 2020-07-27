@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title> MOVEMENT </title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+    <div id="right"></div>
+    <p class="east">East</p>
+    <p class="west">West</p>
+    <p class="north">North</p>
+    <p class="south">South</p>
+    <ul class="dots">
+        <li><p>-</p></li>
+        <li><p>-</p></li>
+        <li><p>-</p></li>
+        <li><p>-</p></li>
+        <li><p>-</p></li>
+        <li><p>-</p></li>
+        <li><p>-</p></li>
+        <li><p>-</p></li>
+        <li><p>-</p></li>
+        <li><p>-</p></li>
+    </ul>
+    <div id="left"></div>
+</div>
+<div style="position: absolute;right: -650px;width: 100%;top:0">
+    <label><b>Input:</b>
+        <input type="text" id="char" placeholder="Enter Something" onkeyup="input()"
+               onkeydown="return /^[lmrLMR]/i.test(event.key)"/>
+    </label>
+    <div style="margin-top: 20px">
+        <b>Entered characters: </b>
+        <div class="characters" id="char-div"></div>
+    </div>
+    <div style="margin-top: 20px">
+        <b style="display: inline">Direction: </b>
+        <div style="margin-top: 10px"><span id="x-co">0</span>,<span id="y-co">0</span>,<span id="position">NORTH</span></div>
+    </div>
+
+</div>
+<script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
